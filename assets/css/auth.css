@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+
+html,
+section {
+  background-color: #e2e8f0;
+  font-family: "Nunito", sans-serif;
+}
+
+.card.card-primary {
+  border-top: 2px solid #6777ef;
+  border-radius: 0.5rem;
+}
+
+.card .card-body {
+  flex: 1 1 auto;
+  padding-bottom: 20px;
+  background-color: transparent;
+  padding: 20px 25px;
+}
+
+.form-control:focus,
+.input-group-text:focus,
+.custom-select:focus,
+.custom-file-label:focus {
+  background-color: #fefeff;
+  border-color: #95a0f4;
+  box-shadow: none !important;
+  outline: none;
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+.form-group .control-label,
+.form-group > label {
+  font-weight: 600;
+  color: #34395e;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-top: 0;
+}
+
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner,
+button::-moz-focus-inner {
+  padding: 0;
+  border-style: none;
+}
+
+.btn-primary,
+.btn-primary.disabled {
+  box-shadow: 0 2px 6px #acb5f6;
+  background-color: #6777ef;
+  border-color: #6777ef;
+}
+
+.btn-primary:active,
+.btn-primary:hover,
+.btn-primary.disabled:active,
+.btn-primary.disabled:hover {
+  background-color: #394eea !important;
+}

@@ -1,0 +1,13 @@
+<VirtualHost *:80>
+    ServerName ci3-smart.local
+    DocumentRoot /var/www/html/Smart
+
+    <Directory /var/www/html/Smart>
+        Options Indexes FollowSymLinks
+        AllowOverride All
+        Require all granted
+    </Directory>
+
+    ErrorLog ${APACHE_LOG_DIR}/ci3-test_error.log
+    CustomLog ${APACHE_LOG_DIR}/ci3-test_access.log combined
+</VirtualHost>
